@@ -1,0 +1,25 @@
+.menu {
+    float: right;
+    width:300px; 
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.menu li {
+    float: right;
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.menu li a:hover {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 540px) {
+    .menu li {
+        float: none;
+    }
+}
