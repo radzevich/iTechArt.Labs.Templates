@@ -1,10 +1,7 @@
 .search-box {
+    height: 22px;
+    padding: 1px 0px;
     font-size: 13px;
     border: 2px solid #000000;
-    margin-right: 30px;
     border-radius: 25px 25px 25px 25px;
-}
-
-textarea:focus, .search_box__input:focus, {
-    outline: none;
 }

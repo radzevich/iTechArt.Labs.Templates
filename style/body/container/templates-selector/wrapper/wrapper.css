@@ -1,5 +1,15 @@
 .wrapper {
-    padding: 18px;
     float: left;
+    padding: 18px 35px 35px 35px;
 }
+
+.wrapper .edit-buttons {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.wrapper:focus .edit-buttons {
+    opacity: 1;
+}
+
 
