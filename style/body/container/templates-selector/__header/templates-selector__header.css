@@ -7,7 +7,7 @@
 .templates-selector__header .button {
     float: left;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .templates-selector__header .button:active {
@@ -16,6 +16,7 @@
 
 .templates-selector__header .search-box {
     float: right;
+    margin-right: 50px;
 }
 
 .templates-selector__header h2, .templates-selector__header a {
