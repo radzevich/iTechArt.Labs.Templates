@@ -1,22 +1,4 @@
 
-
-/******************Scroll panel******************/
-.scroll_panel {
-    height: 90px;
-    clear: left;
-}
-
-.stat {
-    float: left;
-    font-size: 20px;
-}
-
-.navigate_buttons {
-    font-size: 25px;
-    float: right;
-    margin-right: 40px;
-}
-
 /*********************Footer*********************/
 footer {
     height: 60px;
