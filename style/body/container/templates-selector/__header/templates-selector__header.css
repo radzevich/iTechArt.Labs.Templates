@@ -1,0 +1,24 @@
+.templates-selector__header {
+    height: 47px;
+    min-width: 620px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.templates-selector__header .button {
+    float: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.templates_selector__header .button:active {
+    background-color: #DCDCDC;
+}
+
+.templates-selector__header .search-box {
+    float: right;
+}
+
+.templates-selector__header h2, .templates-selector__header a {
+    margin: 0;
+}

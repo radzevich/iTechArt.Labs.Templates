@@ -14,6 +14,11 @@
         <link rel="stylesheet" href="./style/body/container/navigation/button/button.css"/>
         <link rel="stylesheet" href="./style/body/container/navigation/button/style/button_style_bordered.css"/>
         <link rel="stylesheet" href="./resource/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style/body/container/templates-selector/templates-selector.css"/>
+        <link rel="stylesheet" href="./style/body/container/templates-selector/__header/templates-selector__header.css"/>
+        <link rel="stylesheet" href="./style/body/container/templates-selector/__text/templates-selector__text.css"/>
+        <link rel="stylesheet" href="./style/body/container/templates-selector/search-box/search-box.css"/>
+        <link rel="stylesheet" href="./style/body/container/templates-selector/search-box/__input/search-box__input.css"/>
     </head>
     <body class="body">
         <header class="header">
@@ -37,27 +42,27 @@
                 <li><a class="button button_style_bordered" href="#interview-templates">Шаблоны опросов</a></li>
                 <li><a class="button button_style_bordered" href="#users">Пользователи </a></li>
             </ul>
-            <div class="templates_selection-column">
-                <div class="templates_selection_header">
-                    <h2 class="template_text">Шаблоны</h2>
-                    <a class="bordered add_button" href="#new-template">Новый шаблон</a>
-                    <div class="search_box">
-                        <span class="icon"><i class="fa fa-search"></i></span>
-                        <input type="search" id="search" placeholder="Search..." />
+            <div class="templates-selector">
+                <div class="templates-selector__header">
+                    <h2 class="templates-selector__text">Шаблоны</h2>
+                    <a class="button button_style_bordered" href="#new-template">Новый шаблон</a>
+                    <div class="search-box">
+                        <i class="fa fa-search"></i>
+                        <input class="search-box__input" type="search" placeholder="Search..." />
                     </div>
                 </div>
 
                 <div class="wrapper" tabindex="1">
-                    <div class="template_item">
+                    <div class="template-item">
                         <h2>Шаблон 1</h2>
-                        <p class="text">
+                        <p class="template-item__text">
                             На следующий день государь остановился в Вишау. Лейб-медик Вилье несколько раз был призываем к нему. В главной квартире и в ближайших войсках распространилось известие, что государь был нездоров. Он ничего не ел и дурно спал эту ночь, как говорили приближенные. Причина этого нездоровья заключалась в сильном впечатлении, произведенном на чувствительную душу государя видом раненых и убитых.
                         </p>
-                        <div class="counters_container">
-                            <span class="questions_count">Вопросов: 12</span>
-                            <span class="pages_count">Страниц: 3</span>
+                        <div class="template-item__counters">
+                            <span class="template-item__question-counter">Вопросов: 12</span>
+                            <span class="template-item__pages-counter">Страниц: 3</span>
                         </div>
-                        <a class="bordered create_voting_button" href="">Создать опрос</a>                     
+                        <a class="button button_style_bordered" href="">Создать опрос</a>                     
                     </div>
                 </div>
                 <div class="wrapper" tabindex="1">

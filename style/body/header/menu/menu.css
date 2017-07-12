@@ -1,6 +1,6 @@
 .menu {
     float: right;
-    width:300px; 
+    width:370px; 
     padding-top: 30px;
     list-style-type: none;
     overflow: hidden;
@@ -9,13 +9,14 @@
 
 .menu li {
     float: right;
-    width: 150px;
+    width: 185px;
     text-align: center;
     margin-top: 5px;
+    font-size: 20px;
 }
 
-.menu li a:hover {
-    font-size: 18px;
+.menu li:hover {
+    font-size: 22px;
 }
 
 @media screen and (max-width: 540px) {
