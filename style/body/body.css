@@ -6,3 +6,7 @@
     text-decoration: none;
     color: #000000;
 } 
+
+.body ul {
+    margin: 0;
+}

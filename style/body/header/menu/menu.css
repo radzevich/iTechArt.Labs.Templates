@@ -1,6 +1,7 @@
 .menu {
     float: right;
     width:300px; 
+    padding-top: 30px;
     list-style-type: none;
     overflow: hidden;
     margin-top: 25px;
@@ -13,13 +14,11 @@
     margin-top: 5px;
 }
 
-
 .menu li a:hover {
     font-size: 18px;
 }
 
 @media screen and (max-width: 540px) {
-    .menu li {
-        float: none;
-    }
+    .menu { padding-top: 20px; }
+    .menu li { float: none; }
 }
