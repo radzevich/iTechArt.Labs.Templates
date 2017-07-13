@@ -1,0 +1,25 @@
+.header {
+    height: 110px;
+    min-width: 850px;
+    border-bottom: 4px solid #000000;
+    background-color: #DCDCDC;
+    padding: 10px 60px 10px 10px;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .menu {
+    float: right;
+    margin-top: 25px;
+}
+
+.header .menu li:hover {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 820px) {
+    .header .menu { margin-top: 10px; }
+    .header .menu li { float: none; }
+}

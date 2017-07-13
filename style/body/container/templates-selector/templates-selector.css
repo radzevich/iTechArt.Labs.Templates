@@ -1,8 +1,0 @@
-.templates-selector {
-    padding: 20px;
-}
-
-.templates-selector .wrapper:focus {
-    background: #DCDCDC;
-    outline: none;
-}

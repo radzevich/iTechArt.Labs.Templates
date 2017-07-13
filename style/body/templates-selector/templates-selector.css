@@ -1,0 +1,21 @@
+.templates-selector {
+    padding: 20px;
+}
+
+.templates-selector__text {
+    float: left;
+    width: 120px;
+}
+
+.templates-selector .wrapper:focus {
+    background: #DCDCDC;
+    outline: none;
+}
+
+.templates-selector .wrapper {
+    float: left;
+}
+
+.templates-selector .template-item {
+    cursor: pointer;
+}

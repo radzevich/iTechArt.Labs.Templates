@@ -1,0 +1,14 @@
+.scroll-panel {
+    clear: left;
+    padding: 20px 50px;
+}
+
+.scroll-panel__stat {
+    float: left;
+    font-size: 24px;
+}
+
+.scroll-panel__navigate-buttons {
+    float: right;
+    font-size: 25px;
+}

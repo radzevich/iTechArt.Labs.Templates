@@ -11,3 +11,8 @@
 .body ul {
     margin: 0;
 }
+
+.body .container {
+    display: flex;
+    text-align: center   
+}

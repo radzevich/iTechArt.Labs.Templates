@@ -1,0 +1,14 @@
+.menu {
+    float: right;
+    width:600px; 
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu li {
+    float: right;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
