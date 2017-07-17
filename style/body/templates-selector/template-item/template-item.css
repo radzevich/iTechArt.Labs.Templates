@@ -6,8 +6,9 @@
     border: 3px solid #000000;
 }
 
-.template_item h2 {
-    margin: 0px;
+.template-item__header {
+    max-height: 30px;
+    overflow: hidden;
 }
 
 .template-item .button {
