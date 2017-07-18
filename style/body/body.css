@@ -12,7 +12,7 @@
     padding: 0;
 }
 
-.body .container {
+.body .flex-box {
     display: flex;
     text-align: center   
 }

@@ -7,8 +7,10 @@
 }
 
 .template-item__header {
-    max-height: 30px;
-    overflow: hidden;
+    width: 380px;
+    white-space: nowrap;  
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .template-item .button {
