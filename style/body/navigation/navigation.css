@@ -1,0 +1,11 @@
+.navigation {
+    list-style-type: none;
+}
+
+.navigation .button {
+    margin-top: 20px;
+}
+
+.navigation .button:focus {
+    background: #DCDCDC;
+}

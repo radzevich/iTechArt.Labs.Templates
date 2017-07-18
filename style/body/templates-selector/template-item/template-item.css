@@ -1,0 +1,25 @@
+.template-item {
+    width: 420px;
+    height: 320px;
+    padding: 5px 15px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+}
+
+.template-item__header {
+    width: 380px;
+    white-space: nowrap;  
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.template-item .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px 2px 3px 2px;
+    font-size: 18px;
+}
+
+.template-item .button:active {
+    background-color: #DCDCDC;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Шаблоны</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./fonts/fonts.css">
+        <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style/normalize.css"/>
+        <link rel="stylesheet" href="./style/header/header.css"/>
+        <link rel="stylesheet" href="./style/header/menu/menu.css"/>
+        <link rel="stylesheet" href="./style/header/logo/logo.css"/>
+        <link rel="stylesheet" href="./style/body/body.css"/>
+        <link rel="stylesheet" href="./style/body/navigation/navigation.css"/>
+        <link rel="stylesheet" href="./style/body/navigation/button/button.css"/>
+        <link rel="stylesheet" href="./style/body/navigation/button/_style/button_style_bordered.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/templates-selector.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/__header/templates-selector__header.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/__header/search-box/search-box.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/__header/search-box/__input/search-box__input.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/wrapper/wrapper.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/edit-buttons/edit-buttons.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/template-item/template-item.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/template-item/__text/template-item__text.css"/>
+        <link rel="stylesheet" href="./style/body/templates-selector/template-item/__counters/template-item__counters.css"/>
+        <link rel="stylesheet" href="./style/body/scroll-panel/scroll-panel.css"/>
+        <link rel="stylesheet" href="./style/footer/footer.css"/>
+    </head>
+    <body class="body">
+        <header class="header">
+            <a class="logo" href=""></a>
+            <ul class="menu">
+                <li>
+                    <a href="#user">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span>Привет, Админ</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li><a href="#about">О компании</a></li>
+            </ul>
+        </header>
+
+        <div class="flex-box">
+            <div class="side-navigation">
+                <ul class="navigation">
+                    <li><a class="button button_style_bordered" href="#new-interview" >Новый опрос</a></li>
+                    <li><a class="button button_style_bordered" href="#my-interviews">Мои опросы</a></li>
+                    <li><a class="button button_style_bordered" href="#interview-templates">Шаблоны опросов</a></li>
+                    <li><a class="button button_style_bordered" href="#users">Пользователи </a></li>
+                </ul>
+            </div>
+            <div class="templates-selector">
+                <div class="templates-selector__header">
+                    <h2 class="templates-selector__text">Шаблоны</h2>
+                    <a class="button button_style_bordered" href="#new-template">Новый шаблон</a>
+                    <div class="search-box">
+                        <i class="fa fa-search"></i>
+                        <input class="search-box__input" type="search" placeholder="Search..." />
+                    </div>
+                </div>
+
+                <div class="wrapper" tabindex="1">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 1</h2>
+                        <p class="template-item__text">
+                            На следующий день государь остановился в Вишау. Лейб-медик Вилье несколько раз был призываем к нему. В главной квартире и в ближайших войсках распространилось известие, что государь был нездоров. Он ничего не ел и дурно спал эту ночь, как говорили приближенные. Причина этого нездоровья заключалась в сильном впечатлении, произведенном на чувствительную душу государя видом раненых и убитых.
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                
+                <div class="wrapper" tabindex="2">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 2</h2>
+                        <p class="template-item__text">    
+                            На заре 17-го числа в Вишау был препровожден с аванпостов французский офицер, приехавший под парламентерским флагом, требуя свидания с русским императором. Офицер этот был Савари.
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                <div class="wrapper" tabindex="3">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 3</h2>
+                        <p class="template-item__text">
+                            Как слышно было, цель присылки Савари состояла в предложении мира и в предложении свидания императора Александра с Наполеоном. В личном свидании, к радости и гордости всей армии, было отказано, и вместо государя князь Долгоруков.
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                <div class="wrapper" tabindex="4">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 4</h2>
+                        <p class="template-item__text">
+                            18-го и 19-го ноября войска прошли еще два перехода вперед, и неприятельские аванпосты после коротких перестрелок отступали. В высших сферах армии с полдня 19-го числа началось сильное хлопотливо-возбужденное движение.
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                <div class="wrapper" tabindex="5">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 5</h2>
+                        <p class="template-item__text">
+                            До полудня 19-го числа движение, оживленные разговоры, беготня, посылки адъютантов ограничивались одной главной квартирой императоров; после полудня того же дня движение передалось в главную квартиру Кутузова 
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                <div class="wrapper" tabindex="6">
+                    <div class="edit-buttons">
+                        <a href="#edit"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                        <a href="#remove"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="template-item">
+                        <h2 class="template-item__header">Шаблон 6</h2>
+                        <p class="template-item__text">
+                            Как в механизме часов, так и в механизме военного дела, так же неудержимо до последнего результата раз данное движение, и так же безучастно неподвижны, за момент до передачи движения, части механизма, до которых еще не дошло дело.
+                        </p>
+                        <div class="template-item__counters">
+                            <span class="template-item__counters_count_questions">Вопросов: 12</span>
+                            <span class="template-item__counters_count_pages">Страниц: 3</span>
+                        </div>
+                        <a class="button button_style_bordered" href="#create">Создать опрос</a>                     
+                    </div>
+                </div>
+                
+                <div class="scroll-panel">
+                    <span class="scroll-panel__stat">Всего шаблонов: 100</span>
+                    <div class="scroll-panel__navigate-buttons">
+                        <a href="#prev-page"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                        <a href="#prev-template"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        <a href="#nex-template"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="#next-page"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <span>Copyright &copy; 2017 iTechArt</span>
+        </footer>
+    </body>
+</html>
